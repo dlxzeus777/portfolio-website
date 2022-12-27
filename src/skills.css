@@ -1,0 +1,72 @@
+.skills-h2
+{
+    font-size: 3rem;
+    margin: 0 auto;
+    margin-bottom: 2.5rem;
+    border-bottom: 1px solid #A7171A;
+    color: white;
+    width: fit-content;
+}
+.skills-images
+{
+    font-size: 15rem;
+    color: white;
+}
+.skills-container
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    row-gap: 2rem;
+}
+.skills-cards
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 10px;
+    position: relative;
+}
+.skills{
+    margin: 7rem 0;
+}
+.technologies
+{
+    color: white;
+}
+
+.line{
+    width: 35px;
+    height: 5px;
+    background: #A7171A;
+    position: absolute;
+}
+
+.hr{
+    top: 0;
+    left: 0;
+}
+
+.vr-skills{
+    height: 35px;
+    width: 5px;
+    left: 0;
+    top: 0;
+}
+
+.hr-access
+{
+    bottom: 0;
+    right: 0;
+}
+
+.vr-access
+{
+    height: 35px;
+    width: 5px;
+    right: 0;
+    bottom: 0;
+}

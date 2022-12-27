@@ -1,0 +1,78 @@
+@media (max-width: 868px)
+{
+    .about-container
+    {
+        flex-direction: column;
+    }
+    .about-text
+    {
+        display: block;
+    }
+    .aboutme-h1
+    {
+        writing-mode: horizontal-tb;
+        rotate: 0deg;
+        border: 0;
+        border-bottom: 3px solid #A7171A;
+        width: fit-content;
+    }
+    .profile-pic
+    {
+        width: 100%;
+        max-width: 100%;
+        border-bottom-left-radius: 0;
+    }
+    .skills-container
+    {
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+    footer
+    {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 740px)
+{
+    .project-container
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media (max-width: 579px)
+{
+    .skills-container
+    {
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .project-card
+    {
+        max-width: 95%;
+    }
+    .project-images
+    {
+        max-width: 100%;
+    }
+    .skills-images
+    {
+        max-width: 100%;
+    }
+    .skills-cards
+    {
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 375px)
+{
+    .header-a
+    {
+        font-size: .77rem;
+    }
+    .header--list
+    {
+        gap: .5rem;
+    }
+}

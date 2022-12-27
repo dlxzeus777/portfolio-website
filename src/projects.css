@@ -1,0 +1,85 @@
+.project-images
+{
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.project-container
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    row-gap: 2rem;
+}
+.project-card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.projects-h2
+{
+    text-align: center;
+    font-size: 3rem;
+    margin: 0 auto;
+    margin-bottom: 2.5rem;
+    border-bottom: 1px solid #A7171A;
+    color: white;
+    width: fit-content;
+}
+.live-view
+{
+    text-decoration: none;
+    background-color: #A7171A;
+    border: 1px solid #A7171A;
+    padding: 1rem;
+    color: white;
+    border-radius: 5px;
+}
+.live-view:hover
+{
+    color: white;
+    background-color: transparent;
+    transition: all .2s linear;
+}
+.code-view
+{
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid white;
+    padding: 1rem;
+    color: black;
+    border-radius: 5px;
+}
+.code-view:hover
+{
+    background-color: transparent;
+    color: white;
+    transition: all .2s linear;
+}
+.project-buttons
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.project-h3
+{
+    text-align: center;
+}
+.projects{
+    margin-bottom: 7rem;
+}
+.projects-title
+{
+    display: block;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-weight: bold;
+}

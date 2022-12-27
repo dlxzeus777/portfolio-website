@@ -1,0 +1,75 @@
+.wrapper
+{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.profile-pic
+{
+    width: 50%;
+    max-width: 95%;
+    border-bottom-left-radius: 9px;
+    border-top-left-radius: 9px;
+}
+.about-container
+{
+    display: flex;
+    align-items: center;
+    background: black;
+    margin: 0 auto;
+    border-radius: 10px;
+    max-width: 95%;
+    color: white;
+    position: relative;
+}
+.about-text
+{
+    display: flex;
+    align-items: center;
+    line-height: 200%;
+    padding: 1.5rem;
+    letter-spacing: 1px;
+}
+.about-h2
+{
+    font-size: 3rem;
+    margin: 0 auto;
+    margin-bottom: 2.5rem;
+    border-bottom: 1px solid #A7171A;
+    color: white;
+    width: fit-content;
+}
+.aboutme-h1
+{
+    writing-mode: vertical-lr;
+    rotate: 180deg;
+    border-left: 2px solid #A7171A;
+    letter-spacing: 10px;
+}
+.about-name
+{
+    border-bottom: 3px solid #A7171A;
+}
+.vertical
+{
+    height: 35px !important;
+    width: 5px !important;
+    top: 0;
+    right: 0;
+}
+.horizontal
+{
+    top: 0;
+    right: 0;
+}
+.bot-vertical
+{
+    width: 5px !important;
+    height: 35px !important;
+    bottom: 0;
+    left: 0;
+}
+.bot-horizontal
+{
+    bottom: 0;
+    left: 0;
+}

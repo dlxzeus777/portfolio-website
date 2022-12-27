@@ -1,0 +1,37 @@
+footer
+{
+    display: flex;
+    margin-top: 5rem;
+    background-color: #A7171A;
+    align-items: center;
+    color: white;
+    padding: 1rem;
+    gap: 2.5rem;
+}
+.footer-name
+{
+    margin-right: auto;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.icons-item
+{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    border: 1px solid #A7171A;
+    border-radius: 5px;
+    padding: .2rem;
+}
+.icons-item:hover
+{
+    color: white;
+    border: 1px solid white;
+    transition: all .2s linear;
+}
+.icons{
+    display: flex;
+    gap: 1rem;
+}
