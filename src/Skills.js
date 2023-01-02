@@ -6,42 +6,55 @@ import { TbBrandJavascript } from 'react-icons/tb';
 import { FaReact } from 'react-icons/fa';
 import { DiResponsive } from 'react-icons/di';
 import { RxAccessibility } from 'react-icons/rx';
+import SkillCards from './SkillCards';
 
-const Skills = () => {
+const Skills = ({ theme }) => {
 
     return (
         <section className='skills'>
             <div className='wrapper'>
                 <h2 className='skills-h2' id='skills'>Skills</h2>
                 <div className='skills-container'>
-                    <div className='skills-cards html'>
-                        <div className='line hr'></div>
-                        <div className='line vr-skills'></div>
-                        <AiFillHtml5 className='skills-images' />
-                        <h3 className='technologies'>HTML</h3>
-                    </div>
-                    <div className='skills-cards'>
-                        <TbBrandCss3 className='skills-images'/>
-                        <h3 className='technologies'>CSS</h3>
-                    </div>
-                    <div className='skills-cards'>
-                        <TbBrandJavascript className='skills-images' />
-                        <h3 className='technologies'>JavaScript</h3>
-                    </div>
-                    <div className='skills-cards'>
-                        <FaReact className='skills-images' />
-                        <h3 className='technologies'>React</h3>
-                    </div>
-                    <div className='skills-cards'>
-                        <DiResponsive className='skills-images' />
-                        <h3 className='technologies'>Responsive Design</h3>
-                    </div>
-                    <div className='skills-cards access'>
-                        <div className='line hr-access'></div>
-                        <div className='line vr-access'></div>
-                        <RxAccessibility className='skills-images' />
-                        <h3 className='technologies'>Accessibility</h3>
-                    </div>
+                    <SkillCards
+                        classname='html'
+                        linehr={<div className='line hr'></div>}
+                        linevr={<div className='line vr-skills'></div>}
+                        image={<AiFillHtml5 />}
+                        techs='HTML'
+                        theme={theme}
+                    />
+                    <SkillCards
+                        classname=''
+                        image={<TbBrandCss3 />}
+                        techs='CSS'
+                        theme={theme}
+                    />
+                    <SkillCards
+                        classname=''
+                        image={<TbBrandJavascript />}
+                        techs='JavaScript'
+                        theme={theme}
+                    />
+                    <SkillCards
+                        classname=''
+                        image={<FaReact />}
+                        techs='React'
+                        theme={theme}
+                    />
+                    <SkillCards
+                        classname=''
+                        image={<DiResponsive />}
+                        techs='Responsive Design'
+                        theme={theme}
+                    />
+                    <SkillCards
+                        classname='access'
+                        linehr={<div className='line hr-access'></div>}
+                        linevr={<div className='line vr-access'></div>}
+                        image={<RxAccessibility />}
+                        techs='Accessibility'
+                        theme={theme}
+                    />
                 </div>
             </div>
         </section>

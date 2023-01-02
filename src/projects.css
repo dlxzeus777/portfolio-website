@@ -83,3 +83,24 @@
     margin: 1rem 0;
     font-weight: bold;
 }
+.btn-live{
+    background-color: #A7171A;
+}
+
+.btn-live:hover
+{
+    color: black;
+    transition: all .2s linear;
+}
+.btn-code
+{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+.btn-code:hover
+{
+    background-color: white;
+    color: black;
+    transition: all .2s linear;
+}

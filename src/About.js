@@ -2,13 +2,13 @@ import React from 'react'
 import './about.css'
 import ProfileImage from './images/pfp.jpg'
 
-const About = () => {
+const About = ({theme}) => {
 
     return (
         <section className='about'>
             <div className='wrapper'>
                 <h2 className='about-h2' id='about'>About me</h2>
-                <div className='about-container'>
+                <div className={`about-container ${theme ? 'light' : ''}`}>
                     <div className='line vertical'></div>
                     <div className='line horizontal'></div>
                     <div className='line bot-vertical'></div>
