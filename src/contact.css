@@ -24,6 +24,7 @@
     font-family: inherit;
     background-color: black;
     color: white;
+    transition: all .2s linear;
 }
 .inputs::placeholder
 {

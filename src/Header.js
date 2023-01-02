@@ -12,7 +12,7 @@ const Header = ({ theme, toggleTheme }) => {
   }
 
   return (
-    <Navbar collapseOnSelect expand="sm" bg="" variant="dark" style={styles}>
+    <Navbar collapseOnSelect expand="sm" bg="" variant="dark" style={styles} sticky='top'>
       <Container>
         <Navbar.Brand href="#about">Sinka Laszlo</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -22,7 +22,7 @@ const Header = ({ theme, toggleTheme }) => {
             <Nav.Link href="#skills">Skills</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
-            <Nav.Link onClick={toggleTheme}>{theme ? 'Dark Mode' : 'Light Mode'}</Nav.Link>
+            <Nav.Link onClick={toggleTheme}>{theme ? '🌕' : '☀️'}</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
