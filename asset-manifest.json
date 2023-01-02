@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.0c4a42aa.css",
-    "main.js": "/portfolio-website/static/js/main.6d5f5219.js",
+    "main.css": "/portfolio-website/static/css/main.8366a219.css",
+    "main.js": "/portfolio-website/static/js/main.715de85c.js",
     "static/media/meme-generator.png": "/portfolio-website/static/media/meme-generator.22938b95cd9dd2527249.png",
     "static/media/pfp.jpg": "/portfolio-website/static/media/pfp.47f8c71ba1f025f9c014.jpg",
     "static/media/tenzies.png": "/portfolio-website/static/media/tenzies.a099bbf24bd225baf018.png",
     "static/media/fylo.webp": "/portfolio-website/static/media/fylo.9f1e21e56568b0261345.webp",
     "static/media/tip-calculator.webp": "/portfolio-website/static/media/tip-calculator.0710658eb12e8fc65b7d.webp",
     "index.html": "/portfolio-website/index.html",
-    "main.0c4a42aa.css.map": "/portfolio-website/static/css/main.0c4a42aa.css.map",
-    "main.6d5f5219.js.map": "/portfolio-website/static/js/main.6d5f5219.js.map"
+    "main.8366a219.css.map": "/portfolio-website/static/css/main.8366a219.css.map",
+    "main.715de85c.js.map": "/portfolio-website/static/js/main.715de85c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c4a42aa.css",
-    "static/js/main.6d5f5219.js"
+    "static/css/main.8366a219.css",
+    "static/js/main.715de85c.js"
   ]
 }
