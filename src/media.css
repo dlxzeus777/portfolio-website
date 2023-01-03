@@ -47,14 +47,6 @@
     {
         grid-template-columns: repeat(1,1fr) !important;
     }
-    .project-card
-    {
-        max-width: 95%;
-    }
-    .project-images
-    {
-        max-width: 100%;
-    }
     .skills-cards
     {
         max-width: 95%;
@@ -70,5 +62,20 @@
     .header--list
     {
         gap: .5rem;
+    }
+    .projects-title
+    {
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 292px)
+{
+    .live-view
+    {
+        padding: 0.5rem;
+    }
+    .code-view
+    {
+        padding: 0.5rem;
     }
 }

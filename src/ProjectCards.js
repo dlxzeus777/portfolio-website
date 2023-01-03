@@ -1,8 +1,9 @@
 import React from 'react'
 
-const ProjectCards = ({ img, title, live, code, theme }) => {
+const ProjectCards = ({ img, title, live, code, theme, id }) => {
+
   return (
-    <div className={`project-card ${theme ? 'light' : ''}`}>
+    <div className={`project-card ${theme ? 'light' : ''}`} key={id}>
       <img src={img} alt='tenzies-project' className='project-images' />
       <div className='project-text'>
         <h2 className='projects-title'>{title}</h2>
