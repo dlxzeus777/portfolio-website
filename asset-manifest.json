@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.5045ed7a.css",
-    "main.js": "/portfolio-website/static/js/main.fca78fe6.js",
+    "main.js": "/portfolio-website/static/js/main.7fe99730.js",
     "static/media/meme-generator.png": "/portfolio-website/static/media/meme-generator.22938b95cd9dd2527249.png",
     "static/media/pfp.jpg": "/portfolio-website/static/media/pfp.47f8c71ba1f025f9c014.jpg",
+    "static/media/cryptocloud.png": "/portfolio-website/static/media/cryptocloud.41533485e70efc1b37c8.png",
     "static/media/time-tracker-dashboard.png": "/portfolio-website/static/media/time-tracker-dashboard.0711cce38a0c781a55d8.png",
     "static/media/fylo-landing.jpg": "/portfolio-website/static/media/fylo-landing.aae1ea6650786cb20b5e.jpg",
     "static/media/huddle-landing.jpg": "/portfolio-website/static/media/huddle-landing.313eba76b70441c0265f.jpg",
@@ -13,10 +14,10 @@
     "static/media/tip-calculator.webp": "/portfolio-website/static/media/tip-calculator.0710658eb12e8fc65b7d.webp",
     "index.html": "/portfolio-website/index.html",
     "main.5045ed7a.css.map": "/portfolio-website/static/css/main.5045ed7a.css.map",
-    "main.fca78fe6.js.map": "/portfolio-website/static/js/main.fca78fe6.js.map"
+    "main.7fe99730.js.map": "/portfolio-website/static/js/main.7fe99730.js.map"
   },
   "entrypoints": [
     "static/css/main.5045ed7a.css",
-    "static/js/main.fca78fe6.js"
+    "static/js/main.7fe99730.js"
   ]
 }
