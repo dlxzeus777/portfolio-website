@@ -47,10 +47,12 @@ header {
     left: 0;
     bottom: 0;
     transform: scaleX(0);
-    transition: transform .2s linear;
+    transform-origin: right;
+    transition: transform .25s linear;
  }
  .nav-items:hover::after
  {
     transform: scaleX(1);
-    transition: transform .2s linear;
+    transform-origin: left;
+    transition: transform .25s linear;
  }

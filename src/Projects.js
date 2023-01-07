@@ -20,7 +20,6 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper";
 
 
-
 const Projects = ({ theme }) => {
 
   const projects = [
