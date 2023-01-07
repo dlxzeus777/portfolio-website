@@ -18,10 +18,10 @@ const Header = ({ theme, toggleTheme }) => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#skills">Skills</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="#about" className='nav-items'>About</Nav.Link>
+            <Nav.Link href="#skills" className='nav-items'>Skills</Nav.Link>
+            <Nav.Link href="#projects" className='nav-items'>Projects</Nav.Link>
+            <Nav.Link href="#contact" className='nav-items'>Contact</Nav.Link>
             <Nav.Link onClick={toggleTheme}>{theme ? '🌕' : '☀️'}</Nav.Link>
           </Nav>
         </Navbar.Collapse>
