@@ -100,7 +100,10 @@
 .btn-live{
     background-color: #A7171A;
 }
-
+.nav-link
+{
+    width: fit-content;
+}
 .btn-live:hover
 {
     color: black;
